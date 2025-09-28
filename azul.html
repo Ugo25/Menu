@@ -9,40 +9,50 @@
 
 <body class="azul">
     <header>
-        <div class="logo">Colores</div>
-
+        <div class="logo">👻 Pagina</div>
         <nav aria-label="Navegación principal">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
 
 
+                <!-- Ítem con submenú: 'Proyectos' -->
                 <li>
-                    <a href="#" aria-haspopup="true" tabindex="0">Colores ▼▼</a>
-                    <ul>
+                    <!-- Enlace principal -->
+                    <a href="#" aria-haspopup="true" aria-expanded="false">Colores ▾</a>
+
+                    <!-- Submenú (lista anidada) -->
+                    <ul role="menu" aria-label="Submenú de Colores">
                         <li><a href="rojo.html">Rojo</a></li>
+                        <li><a href="verde.html">Verde</a></li>
+                        <li><a href="azul.html">Azul</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <!-- Enlace principal -->
+                    <a href="#" aria-haspopup="true" aria-expanded="false">Mas colores ▾</a>
+
+                    <!-- Submenú (lista anidada) -->
+                    <ul role="menu" aria-label="Submenú de Colores">
+                        <li><a href="rojo.html">Rojo</a></li>
+                        <li><a href="verde.html">Verde</a></li>
                         <li><a href="azul.html">Azul</a></li>
                     </ul>
                 </li>
 
 
-                <li>
-                    <a href="#" aria-haspopup="true" tabindex="0">Mas colores ▼▼</a>
-                    <ul>
-                        <li><a href="verde.html">Verde</a></li>
-                    </ul>
-                </li>
             </ul>
-        </nav>
 
-        <div class="buscador">
+        </nav>
+        <div class="search">
             <input type="text" placeholder="Buscar..." aria-label="Buscar">
         </div>
+
     </header>
 
     <main>
-        <h1>Página de Azul</h1>
+        <h1>Página de azul</h1>
         <p>Bienvenido al sitio web de azul.</p>
-        <img class="imagen" src="img/arbol.jpg" alt="Azul">
+        <img class="imagen" src="img/leon.jpg" alt="azul">
     </main>
 </body>
 
